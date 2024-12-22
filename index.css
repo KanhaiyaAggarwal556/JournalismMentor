@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    /* background-color: #bb2828; */
+}
+
+#navbar{
+    height: 10vh;
+    width: 100%;
+    /* background-color: rgb(251, 244, 244); */
+    display: flex;
+}
+#name {
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family:cursive;
+    text-decoration: none;
+    padding-left: 5vh;
+    padding-top: 2.5vh;
+    color: #291616;
+}
+#enroll{
+    
+    margin-left: auto;
+    padding-right: 5vh;
+    padding-top: 2vh;
+}
+#nav-item{
+    font-size: 1.1vw;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 4vh;
+    padding-left: 6vh;
+    color: #291616;
+}
+
+#Enroll{
+    height: 3vw;
+    width: 20vh;
+    font-size: 2vh;
+    font-weight: bold;
+    background-color: #291616;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#home{
+    height:90vh;
+    width:100%;
+    overflow: hidden;
+    position: relative;
+}
+.img{
+    height:90vh;
+    width:100%;
+    object-fit: cover;
+    display: flex;
+    position: absolute;
+
+}
+
+#about{
+    height:40vw;
+    width:100%;
+    /* background-color: rgb(251, 244, 244); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#AboutImg{
+    height: 60vh;
+    width: 90vh;
+    border-radius: 10px;
+    margin-right: auto;
+    
+}
+#AboutArun{
+    height: 50vh;
+    width: 100vh;
+    margin-right: 20vh;
+    margin-bottom:20vh;
+}
+#head{
+    margin-left: 70px;
+    font-family: cursive;
+    text-decoration: underline;
+    color: #291616;
+    padding-bottom: 10px;
+}
+#SubHead{
+    margin-left: 20px;
+    padding-bottom: 2px;
+}
+#point{
+    margin-left: 95px;
+    
+}
+#text{
+    color: #291616;
+    padding-bottom: 6px;
+}
+#importance{
+    height: 35vw;
+    width: 100%;
+    /* background-color: rgb(251, 244, 244); */
+    display: flex;
+}
+#importance img{
+    height: 70vh;
+    width: 130vh;;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+#Text{
+    height: 90vh;
+    width: 70vh;
+}
+#Text h2{
+    margin-left: 30px;
+    color: #291616;
+    text-decoration: underline;
+    font-family: cursive;
+    padding-bottom: 1em;
+}
+#Text p{
+    margin-left: 30px;
+    color: #291616;
+    padding-bottom: 10px;
+}   
+#page4{
+    height : 50vw;
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#course{
+    height: 40vw;
+    width : 80vw;
+    padding-left: 70px;
+    padding-top: 40px;
+}
+#course h2{
+    font-size: 33px;
+    color: #291616;
+    text-decoration: underline;
+    font-family: cursive;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#course p{
+    font-size: 16px;
+    width: 150vh;
+    display: flex;
+    text-align: center;
+    color: #291616;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
